@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+hr {
+    border: 1.3px solid grey;
+    margin: 8px 0px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.top img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-top: -50px;
+}
+
+.top-one {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.top-one .img {
+    background-color: lightgray;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.top-one img {
+    width: 200px;
+    padding: 27px;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-one-text {
+    line-height: 27px;
+}
+
+address {
+    margin-top: 16px;
+}
+
+.top-two,
+.top-threeC,
+.top-four,
+.top-five {
+    line-height: 25px;
+}
+
+.top-main {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-main i {
+    font-size: 10px;
+}
+
+.top-two ul {
+    margin: 10px 0px 20px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 82%;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border-bottom: 1px solid lightgrey;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(236, 236, 236);
+}
+
+@media screen and (max-width: 670px) {
+    .top-one img {
+        width: 180px;
+        padding: 27px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    table {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 506px) {
+    .top-one {
+        flex-direction: column;
+    }
+}
